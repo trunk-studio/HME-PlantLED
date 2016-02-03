@@ -1,0 +1,24 @@
+<ion-view view-title="HME PlantLED">
+  <ion-content class="padding">
+    <p>
+      For help sending push notifications, join the <a href="https://apps.ionic.io/signup" target="_blank">Ionic Platform</a> and check out <a href="http://docs.ionic.io/docs/push-overview" target="_blank">Ionic Push</a>. We also have other services available.
+    </p>
+    <div class="list">
+        <a class="item" href="#" onclick="window.open('http://360.scopbee.com/app', '_blank', 'location=no'); return false;">
+            Open a Browser
+        </a>
+        <a class="item" href="#" onclick="alert(location.href)">Click</a>
+    </div>
+
+    <form ng-submit="createTask(task)">
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="S/N" ng-model="task.title">
+        </label>
+      </div>
+      <div class="padding">
+        <button type="submit" class="button button-block button-positive">Connect</button>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
